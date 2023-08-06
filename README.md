@@ -2,7 +2,7 @@
 
 ## Changes made
 - Fix value index of all pallets in [construct_runtime](runtime/src/lib.rs#L390)
-- Added test [chain_extension_is_enabled](runtime/src/lib.rs#L641)
+- Added test [chain_extension_is_enabled](runtime/src/lib.rs#L646)
 - Change extension to AssetExtension in [pallet-contract::Config](runtime/src/lib.rs#L370)
 - Implement AssetExtension in [asset_extension.rs](runtime/src/asset_extension.rs)
 - Contract to showcase how to use in ink! [asset_contract](contract/)
